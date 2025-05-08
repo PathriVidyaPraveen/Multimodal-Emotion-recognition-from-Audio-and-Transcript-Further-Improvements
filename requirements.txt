@@ -1,0 +1,16 @@
+numpy
+pandas
+matplotlib
+seaborn
+openai-whisper
+google-cloud-speech
+torch
+torchvision
+torchaudio
+tensorflow
+transformers
+librosa
+opencv-python
+tqdm
+scikit-learn
+nltk

@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "my_emotion_project"
+version = "0.1.0"
+description = "Emotion recognition project with audio and text"
+authors = ["Pathri Vidya Praveen <cs24btech11047@iith.ac.in>"]
+packages = [{ include = "my_emotion_project" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
+tensorflow = "*"
+transformers = "*"
+librosa = "*"
+nltk = "*"
+scikit-learn = "*"
+opencv-python = "*"
+whisper = { git = "https://github.com/openai/whisper.git" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
